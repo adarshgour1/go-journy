@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# podman run --name mariadb -e MYSQL_ROOT_PASSWORD=password --network host -d docker.io/library/mariadb:10.3
-
 mysql -h 127.0.0.1 -u root --password=password "$@"
