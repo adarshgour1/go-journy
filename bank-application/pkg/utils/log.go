@@ -13,4 +13,5 @@ func NewLogger(filename string) *log.Logger {
 
 	lg := log.New(buf, "", log.Lmicroseconds|log.Lshortfile)
 	return lg
+
 }
